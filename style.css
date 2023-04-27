@@ -1,0 +1,39 @@
+*{
+    font-family: poppins;
+}
+
+.bg-img img{
+    background-size: cover;
+    width: 100%;
+}
+.scroll-side{
+    text-align: center;
+    
+}
+.scroll-side button{
+    width: 180px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: lightgrey;
+}
+.my-smart-basket .col-2{
+    background-color: yellow;
+    margin: 0px 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+.my-smart-basket .row{
+    padding: 10px 100px;
+    justify-content: center;
+}
+
+.bank-offer img{
+    width: 100%;
+}
+.bank-offer .row{
+    
+}
+.about p,li{
+    font-size: 15px;
+}
