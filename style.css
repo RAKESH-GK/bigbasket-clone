@@ -4,6 +4,87 @@
     padding: 0px;
 }
 
+header{
+    display: block;
+}
+
+/* top head */
+.top-head{
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+}
+.top-head div{
+    padding-left: 10px;
+    color: gray;
+}
+.top-head div a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* bottom head */
+.bottom-head div img{
+    width: 30%;
+}
+.bottom-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-head .fa-shopping-basket{
+    font-size: 30px;
+}
+.search-bar{
+    padding: 10px;
+    margin-left: -200px;
+}
+.search-bar input{
+    width: 500px;
+    height: 35px;
+    padding-left: 5px;
+}
+.search-bar button{
+    height: 35px;
+    padding: 0 10px;
+    margin-left: -6px;
+    border: 0.5px solid gray;
+    background-color:rgba(83, 130, 13, 0.577);
+}
+
+/* header mmobile */
+.header-mob{
+    background-color: rgba(83, 130, 13, 0.577);
+    display: none;
+    
+}
+.search-bar1{
+    padding: 2px;
+}
+.search-bar1 input{
+    width: 380px;
+    height: 35px;
+    padding-left: 5px;
+}
+.search-bar1 button{
+    height: 35px;
+    padding: 0 10px;
+    margin-left: -6px;
+    border: 0.5px solid gray;
+    background-color:rgba(83, 130, 13, 0.577);
+}
+
+@media (max-width: 480px) {
+.header-mob{
+        display: block;
+  }
+  header{
+    display: none;
+}
+}
+
+
+
 .bg-img img{
     background-size: cover;
     width: 100%;

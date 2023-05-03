@@ -12,42 +12,35 @@
   </head>
 <body>
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container">
-          <a class="navbar-brand" href="#">BIGBASKET</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+    <header>
+      <div class="container top-head">
+        <div><span><i class="fa fa-phone"></i></span> 1860 123 1000 </div>
+        <div><span><i class="fa fa-map-marker"></i></span> 56004 Bangalore </div>
+        <div><span><i class="fa fa-user"></i></span> <a href="login.html">Login/Sign Up</a> </div>
+      </div>
+      <div class="container bottom-head p-2">
+        <div class=""><img src="images/big basket logo.png" alt=""></div>
+        <div class="search-bar"><form action="">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form></div>
+        <div class="shopping-basket bg-secondary bg-opacity-50 p-2">
+          <span><i class="fa fa-shopping-basket text-danger"></i></span><span class="basket-text-end"> My basket</span>
         </div>
-      </nav>
+      </div>
+    </header>
+    <div class="header-mob">
+      <div class="row text-center fs-2 text-white">
+        <div class="col-3"><i class="fa fa-bars"></i></div>
+        <div class="col-3"><i class="fa fa-user"></i></div>
+        <div class="col-3"><i class="fa fa-map-marker"></i></div>
+        <div class="col-3"><i class="fa fa-shopping-cart"></i></div>
+      </div>
+      <div class="search-bar1"><form action="">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form></div>
+    </div>
 
       <!--body image-->
       <div class="bg-img">
@@ -73,9 +66,9 @@
         <div id="slider-container" class="slider">
 
           <div class="slide">
-            <div>
+            <div onclick="load_product()">
               <div class="offer">GET 33% OFF <i class="fa fa-asterisk" style="color: red;"></i></div>
-              <div class="img"><img src="images/onion.webp" alt=""></div>
+              <div class="img"><img src="images/capsi.webp" alt=""></div>
               <p class="t1">Fresho</p>
               <p class="t2">Onion (Loose)</p>
               <select name="weight-amt">
@@ -96,7 +89,11 @@
               </div>
             </div>
           </div>
-         
+         <script>
+          function load_product(){
+            window.location.href = "product.html";
+          }
+         </script>
           <div class="slide">
             <div>
               <div class="offer">GET 33% OFF <i class="fa fa-asterisk" style="color: red;"></i></div>
@@ -569,9 +566,9 @@
         <div class="col-md-3">
           <p>big basket</p>
           <ul>
-            <li><a href="#">About Us</a></li>
+            <li><a href="about.html">About Us</a></li>
             <li><a href="#">In News</a></li>
-            <li><a href="#">Green bigbasket</a></li>
+            <li><a href="green_basket.html">Green bigbasket</a></li>
             <li><a href="#">Privacy Policy</a></li>
             <li><a href="#">Affliate</a></li>
             <li><a href="#">terms and Conditions</a></li>
@@ -587,7 +584,7 @@
           <p>Help</p>
           <ul>
             <li><a href="#">FAQs</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
             <li><a href="#">bb Wallet FAQs</a></li>
             <li><a href="#">bb Wallet T&Cs</a></li>
             <li><a href="#">Vendor Connect</a></li>
