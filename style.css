@@ -109,13 +109,15 @@ header{
 }
 /* top stripe end */
 
+/* bank offer start */
+
 .bank-offer{
     margin-bottom: 10px;
 }
 .bank-offer img{
     width: 100%;
 }
-
+/* bank offer end */
 
 .about p,li{
     font-size: 15px;
@@ -139,7 +141,6 @@ header{
     color: gray;
 }
 
-/* sam codes*/
 .text_13{
     font-size: 13px !important;
 }
@@ -290,15 +291,7 @@ font-size: 15px;
 	 width: 150px;
 	 display: none;
 }
- .slider::-webkit-scrollbar-track {
-	 background: transparent;
-}
- .slider::-webkit-scrollbar-thumb {
-	 background: #888;
-}
- .slider::-webkit-scrollbar-thumb:hover {
-	 background: #555;
-}
+
  .slide {
 	position: relative;
     margin: 10px;
@@ -344,25 +337,6 @@ font-size: 15px;
     font-size: 30px;
 }
 
-
- @media only screen and (max-width: 420px) {
-	 .slider {
-		 padding: 0;
-	}
-	 .slide {
-		 padding: 16px 10px;
-	}
-	 .slide img {
-		 margin: 0;
-	}
-	 .control-prev-btn {
-		 top: 37%;
-	}
-	 .control-next-btn {
-		 top: 37%;
-	}
-}
- 
 /* brand store */
 .brand-store{
     text-align: center;
