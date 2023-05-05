@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins";
+}
+
+/* header start */
+header{
+    float: left;
+    width: 100%;
+    background-color: black;
+    padding: 10px 10%;
+    position: fixed;
+}
+header .logo{
+    float: left;
+}
+header .menu{
+    float: right;  
+}
+header .menu ul li{
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+    text-transform: uppercase;
+    padding-top: 7px;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color:white;
+}
+/* header end */
+
+/* home section start */
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: white;
+    padding-top: 15%;
+}
+#home .home_content{
+    width: 60%;
+    margin: 0 20%;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+/* home section end */
+
+/* about section start */
+#about{
+    height: 80vh;
+    width: 100%;
+    padding: 0 2%;
+}
+#about h2{
+    text-align: center;
+    padding-top: 5%;
+}
+#about .about_content{
+    width: 25%;
+    float: left;
+    padding: 0px 2%;
+}
+#about .about_content .about_inside_content{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+#about .about_content img{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+#about .about_content .details{
+    padding: 10px;
+}
+
+#about button{
+    padding: 5px;
+    border-radius: 10px;
+}
+/* about section end */
+
+/* team section start */
+
+#team{
+    width: 100%; 
+    padding: 0 4%;
+    height: 85vh;
+}
+#team h2{
+    text-align: center;
+    padding-top: 5%;
+}
+#team .team_content{
+    width: 100%;
+    display: flex;
+    float: left;
+}
+#team .team_content .team_left{
+    width: 40%;
+    padding: 30px;
+    background-color: lightblue;
+}
+#team .team_content .team_right{
+    width: 60%;
+    height: 500px;
+}
+/* team section end */
+
+/* contact section end */
+#contact{
+    width: 100%; 
+    padding: 0 4%;
+    height: 100vh;
+}
+#contact h2{
+    text-align: center;
+    padding-top: 5%;
+}
+#contact .contact_content{
+    width: 100%;
+    display: flex;
+    float: left;
+}
+#contact .contact_content .contact_left{
+    width: 60%;
+    height: 500px;
+}
+#contact .contact_content .contact_right{
+    width: 40%;
+    padding: 30px;
+    background-color: lightblue;
+}
+#contact .contact_content .contact_right .textbox{
+    width: 300px;
+    height: 40px; 
+    border-radius: 5px; 
+}
+#contact .contact_content .contact_right .button{
+    width: 100px;
+    height: 40px; 
+    border-radius: 5px;
+    background-color: gray;
+    color: white; 
+}
+
+
+/* contact section end */
+
